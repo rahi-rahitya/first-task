@@ -4,9 +4,32 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
+	<link rel="stylesheet" href="navigation.css"/>
+	<style type="text/css">
+		body{
+			background-image: url(https://i.pinimg.com/736x/71/b6/71/71b6718d21020f896cfa121fe62b3ee8.jpg);
+			background-repeat: no-repeat;
+			background-size: 100%;
+		}
+		.form{
+			border: 2px solid darkgreen;
+			width: 20%;
+			margin-left: 20%;
+			margin-top: 10%;
+			padding: 10%;
+			background-color: skyblue;
+		}
+		
+	</style>
 </head>
 <body>
-	<form action="wikipedia.html">
+	<nav class="navbar">
+		<a href="registration.html">Register</a>
+		<a href="login.html">login</a>
+		<a href="wikipedia.html">biography</a>
+		<a href="#">photos</a>
+	</nav>
+	<form  class="form "action="wikipedia.html">
 		<p align="center"><input type="text" placeholder="username" required/></p>
 		<p align="center"><input type="password" placeholder="password" required/></p>
 		<p align="center"><button>login</button></p>
